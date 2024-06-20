@@ -7,20 +7,25 @@ The user is instructed to click on the microphone button to interact.
 The JavaScript file (app.js) is assumed to handle the voice recognition and provide responses or actions based on the user's spoken commands.
 
 
-1. User Interface:
+#1. User Interface:
 
 Image Container:
+
 Displays a visually appealing image of JARVIS (giphy.gif) to create a engaging user experience.
 The image is responsive, meaning it adapts to different screen sizes and devices.
+
 Title and Introduction:
+
 Displays the title "J A R V I S" in a prominent heading (h1) to clearly identify the virtual assistant.
 Provides a brief introduction "I m a Virtual Assistant JARVIS, How may i help you?" to set the tone for user interaction.
 Microphone Button:
 Displays a microphone icon (fas fa-microphone-alt) within a button element to indicate speech input.
 The button is designed to be easily clickable on various devices.
+
 Instructional Text:
 Displays the text "Click here to speak" to instruct the user on how to interact with JARVIS.
-2. Speech Recognition and Processing:
+
+#2. Speech Recognition and Processing:
 
 Speech Input:
 When the user clicks the microphone button, the web page initiates speech recognition using the user's device microphone.
