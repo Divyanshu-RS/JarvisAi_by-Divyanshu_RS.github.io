@@ -24,7 +24,8 @@ function wishMe() {
     }
 }
 
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', function() {
+    // Your code her
     speak("Initializing JARVIS...");
     wishMe();
 });
